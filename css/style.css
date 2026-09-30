@@ -1655,8 +1655,8 @@ body.no-scroll { overflow: hidden; }
 .story__num {
   position: absolute;
   z-index: -1;
-  top: -6%;
-  left: -26%;
+  bottom: -12%;
+  left: -24%;
   font-family: var(--font-display);
   font-weight: 800;
   font-size: clamp(9rem, 40vw, 21rem);
@@ -1741,7 +1741,7 @@ body.no-scroll { overflow: hidden; }
     gap: clamp(64px, 8vw, 130px);
   }
   .story__visual { width: 100%; margin: 0; }
-  .story__num { left: -18%; top: -12%; }
+  .story__num { left: -22%; top: auto; bottom: -16%; }
 }
 
 /* ==========================================================================

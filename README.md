@@ -12,26 +12,24 @@ tools/                script para otimizar as imagens
 404.html, _headers, robots.txt   arquivos para o Netlify
 ```
 
-## 1. Antes de publicar: coloque as duas fotos
+## 1. Fotos
 
-As fotos **não estão no repositório**. Salve-as exatamente com estes nomes:
+As fotos já estão no site, recortadas no formato 4:5 e com versão WebP:
 
 | Arquivo | Onde aparece |
 | --- | --- |
-| `assets/foto-apresentacao.jpg` | Hero (topo) e prévia de compartilhamento (Open Graph) |
-| `assets/foto-historia.jpg` | Seção "Minha história" |
+| `assets/foto-apresentacao.jpg` / `.webp` | Hero (topo) e prévia de compartilhamento (Open Graph) |
+| `assets/foto-historia.jpg` / `.webp` | Seção "Minha história" |
 
-Enquanto uma foto não existir, o site mostra uma moldura com o monograma "PC" no lugar dela.
-
-Depois de colocar as fotos, gere as versões WebP (mais leves):
+Para trocar uma foto, substitua o `.jpg` e gere o WebP de novo:
 
 ```bash
 pip install Pillow
 python3 tools/otimizar-imagens.py
 ```
 
-O script cria os `.webp`, reduz fotos grandes (o original fica em `_originais/`) e avisa se faltar alguma foto.
-Se não quiser rodar o script, o site continua funcionando só com os `.jpg`. Nesse caso, prefira fotos com até 1400 px de largura e menos de 400 KB (você pode reduzir em https://squoosh.app).
+Se não quiser rodar o script, apague o `.webp` correspondente: o site usa o `.jpg` automaticamente.
+Se uma foto faltar, o site mostra uma moldura com o monograma "PC" no lugar.
 
 O enquadramento das fotos pode ser ajustado em `css/style.css` pela variável `--focus`
 (ex.: `--focus: 50% 22%`, que significa centro na horizontal e 22% a partir do topo).
