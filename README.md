@@ -53,13 +53,16 @@ As 12 imagens em `assets/portfolio/` são placeholders. Para trocar um projeto:
 
 Categorias disponíveis: `identidade`, `social`, `anuncios`, `embalagens`, `impressos`, `apresentacoes`.
 
-## 4. Publicar no Netlify
+## 4. Publicação
 
-1. Acesse https://app.netlify.com/drop.
-2. Arraste esta pasta inteira.
-3. Depois de publicado, troque no `<head>` do `index.html` os caminhos de `og:image` e `twitter:image`
-   pelo endereço completo (ex.: `https://seusite.netlify.app/assets/foto-apresentacao.jpg`) e publique de novo.
-   Assim a foto aparece quando o link for compartilhado no WhatsApp e nas redes.
+**GitHub Pages (ativo):** https://theusmkt.github.io/DESIGN-GRAFICO-PABLO/
+
+Todo push na branch `main` publica o site automaticamente (workflow `.github/workflows/pages.yml`).
+Acompanhe em *Actions* no GitHub. A atualização leva cerca de 1 minuto.
+
+**Netlify (alternativa):** arraste a pasta em https://app.netlify.com/drop.
+Se publicar em outro endereço ou domínio próprio, atualize `canonical`, `og:url`, `og:image` e `twitter:image`
+no `<head>` do `index.html`.
 
 ## Contatos usados no site
 
