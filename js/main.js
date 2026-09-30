@@ -307,7 +307,8 @@
      ------------------------------------------------------------------ */
   const counters = $$('[data-count]');
   const renderCount = (el, value) => {
-    el.textContent = `${el.dataset.prefix || ''}${value}${el.dataset.suffix || ''}`;
+    const n = 'thousands' in el.dataset ? value.toLocaleString('pt-BR') : value;
+    el.textContent = `${el.dataset.prefix || ''}${n}${el.dataset.suffix || ''}`;
   };
   if (counters.length && 'IntersectionObserver' in window && motionOK()) {
     counters.forEach((el) => renderCount(el, 0));

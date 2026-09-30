@@ -1786,7 +1786,7 @@ body.no-scroll { overflow: hidden; }
 .stat__num {
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(2.1rem, 1rem + 4.2vw, 4.8rem);
+  font-size: clamp(1.8rem, .6rem + 2.6vw, 2.9rem);
   line-height: .95;
   letter-spacing: -.05em;
   font-variant-numeric: tabular-nums;
@@ -1795,7 +1795,7 @@ body.no-scroll { overflow: hidden; }
   background-clip: text;
   color: transparent;
 }
-.stat--big .stat__num { font-size: clamp(2.8rem, 1rem + 7.4vw, 8rem); }
+.stat--big .stat__num { font-size: clamp(2.6rem, .8rem + 5.6vw, 7rem); }
 .stat--accent .stat__num {
   background: linear-gradient(120deg, #FFE3A1, #F4C95D 60%, #FF9E5E);
   -webkit-background-clip: text;
@@ -1822,7 +1822,7 @@ body.no-scroll { overflow: hidden; }
 
 @media (min-width: 900px) {
   .stats__grid {
-    grid-template-columns: 1.35fr 1fr 1fr 1fr;
+    grid-template-columns: minmax(0, 1.25fr) repeat(3, minmax(0, 1fr));
     gap: clamp(20px, 3vw, 44px);
     align-items: end;
   }

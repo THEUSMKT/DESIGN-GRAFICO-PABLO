@@ -36,10 +36,9 @@ O enquadramento das fotos pode ser ajustado em `css/style.css` pela variável `-
 
 ## 2. Conteúdo a preencher
 
-Procure por `[PREENCHER]` no `index.html`. Os trechos aparecem destacados em dourado no site até serem substituídos:
+História e números já estão preenchidos (25 anos de carreira, +1.500 projetos, +50 empresas).
+Procure por `[PREENCHER]` no `index.html` para o que ainda falta. Os trechos aparecem destacados em dourado no site até serem substituídos:
 
-- **Minha história:** como você começou, segmentos/cidades atendidos, um marco da carreira.
-- **Números:** projetos entregues e empresas atendidas. O comentário no HTML mostra como ativar o contador animado.
 - **FAQ:** prazos, número de rodadas de ajuste, formatos dos arquivos e valores.
 - **Depoimentos:** substitua `[DEPOIMENTO]`, `[NOME]` e `[EMPRESA]` por depoimentos reais, com autorização dos clientes.
 
