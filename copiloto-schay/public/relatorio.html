@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Painel do Gestor</title>
+  <meta name="description" content="Relatório da semana e funil de clientes do Copiloto de Vendas.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0E2A47">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="/icones/icone.svg" type="image/svg+xml">
+  <link rel="preload" href="/fontes/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/relatorio.css">
+  <script src="/relatorio.js" defer></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho-dentro">
+      <div class="marca">
+        <img src="/icones/icone.svg" alt="" width="36" height="36">
+        <div><strong>Painel do Gestor</strong><span>Copiloto de Vendas · Schay</span></div>
+      </div>
+      <button id="sair" class="botao-texto" type="button" hidden>Sair</button>
+    </div>
+    <nav id="abas" class="abas" aria-label="Seções" hidden>
+      <button type="button" data-aba="relatorio" aria-current="page">Relatório</button>
+      <button type="button" data-aba="funil">Funil</button>
+      <button type="button" data-aba="acesso">Acesso da Schay</button>
+    </nav>
+  </header>
+  <main id="painel" class="painel" aria-live="polite">
+    <p class="carregando">Carregando…</p>
+  </main>
+  <div id="dica-grafico" class="dica-grafico" role="tooltip" hidden></div>
+  <div id="aviso" class="aviso" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

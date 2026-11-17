@@ -1,0 +1,38 @@
+[
+  {
+    "id": "exemplo-apto-centro",
+    "exemplo": true,
+    "titulo": "EXEMPLO - SUBSTITUIR · Apartamento 2 dormitórios perto do Centro",
+    "bairro": "EXEMPLO - SUBSTITUIR (ex.: Centro)",
+    "tipo": "Apartamento",
+    "preco": "EXEMPLO - SUBSTITUIR (ex.: R$ 289.000)",
+    "quartos": 2,
+    "metragem": "EXEMPLO - SUBSTITUIR (ex.: 58 m² privativos)",
+    "diferenciais": [
+      "EXEMPLO - SUBSTITUIR: 1 vaga de garagem coberta",
+      "EXEMPLO - SUBSTITUIR: sacada com churrasqueira",
+      "EXEMPLO - SUBSTITUIR: perto de mercado, escola e ônibus"
+    ],
+    "condicoes": "EXEMPLO - SUBSTITUIR (ex.: aceita financiamento bancário e FGTS)",
+    "link": "https://EXEMPLO-SUBSTITUIR.com.br/anuncio-1",
+    "foto": "imoveis/exemplo-apartamento.svg"
+  },
+  {
+    "id": "exemplo-casa-patio",
+    "exemplo": true,
+    "titulo": "EXEMPLO - SUBSTITUIR · Casa 3 dormitórios com pátio",
+    "bairro": "EXEMPLO - SUBSTITUIR (ex.: Scharlau)",
+    "tipo": "Casa",
+    "preco": "EXEMPLO - SUBSTITUIR (ex.: R$ 450.000)",
+    "quartos": 3,
+    "metragem": "EXEMPLO - SUBSTITUIR (ex.: 120 m² construídos, terreno de 300 m²)",
+    "diferenciais": [
+      "EXEMPLO - SUBSTITUIR: pátio grande com espaço para piscina",
+      "EXEMPLO - SUBSTITUIR: suíte",
+      "EXEMPLO - SUBSTITUIR: 2 vagas de garagem"
+    ],
+    "condicoes": "EXEMPLO - SUBSTITUIR (ex.: aceita financiamento; consultar permuta)",
+    "link": "https://EXEMPLO-SUBSTITUIR.com.br/anuncio-2",
+    "foto": "imoveis/exemplo-casa.svg"
+  }
+]

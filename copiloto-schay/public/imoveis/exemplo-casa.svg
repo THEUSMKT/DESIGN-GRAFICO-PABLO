@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ilustração de casa com pátio (exemplo)">
+  <defs>
+    <linearGradient id="ceu2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CFE3FA"/><stop offset="1" stop-color="#EEF5FD"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#ceu2)"/>
+  <circle cx="80" cy="70" r="28" fill="#E9C46A" opacity=".9"/>
+  <rect x="0" y="235" width="400" height="65" fill="#A9CFA9"/>
+  <path d="M110 140 L200 70 L290 140 Z" fill="#C9A24A"/>
+  <rect x="125" y="138" width="150" height="100" rx="4" fill="#F8FAFD"/>
+  <rect x="125" y="138" width="150" height="8" fill="#0E2A47" opacity=".15"/>
+  <rect x="185" y="175" width="32" height="63" rx="3" fill="#0E2A47"/>
+  <circle cx="210" cy="207" r="2.5" fill="#C9A24A"/>
+  <rect x="140" y="165" width="32" height="30" rx="3" fill="#8FB7E3"/>
+  <rect x="230" y="165" width="32" height="30" rx="3" fill="#8FB7E3"/>
+  <path d="M140 180 H172 M156 165 V195 M230 180 H262 M246 165 V195" stroke="#F8FAFD" stroke-width="3"/>
+  <rect x="290" y="190" width="70" height="48" rx="4" fill="#0E2A47" opacity=".85"/>
+  <path d="M290 190 L325 168 L360 190 Z" fill="#0E2A47"/>
+  <g stroke="#F8FAFD" stroke-width="2" opacity=".7"><path d="M300 200 H350 M300 210 H350 M300 220 H350"/></g>
+  <g fill="#5E9F6E"><circle cx="60" cy="230" r="22"/><circle cx="95" cy="238" r="14"/><circle cx="375" cy="232" r="16"/></g>
+  <path d="M0 262 Q100 250 200 262 T400 262" stroke="#8DBE8D" stroke-width="6" fill="none"/>
+</svg>

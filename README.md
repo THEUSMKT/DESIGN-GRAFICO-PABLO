@@ -67,3 +67,8 @@ no `<head>` do `index.html`.
 
 - WhatsApp: (51) 99195-7156 (mensagem pronta; nos cards de serviço a mensagem já cita o serviço)
 - Instagram: [@cavalheiro_pablo](https://www.instagram.com/cavalheiro_pablo/)
+
+## Outro projeto nesta pasta: Copiloto de Vendas da Schay
+
+A pasta [`copiloto-schay/`](copiloto-schay/) é um app separado (PWA + funções do Netlify) e não faz parte da landing page.
+O GitHub Pages continua publicando só os arquivos do site. Passo a passo completo em [`copiloto-schay/README.md`](copiloto-schay/README.md).

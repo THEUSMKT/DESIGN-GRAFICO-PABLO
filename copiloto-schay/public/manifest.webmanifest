@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "Copiloto de Vendas da Schay",
+  "short_name": "Copiloto",
+  "description": "Ajuda para responder clientes no WhatsApp e lembrar quem chamar.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F8FC",
+  "theme_color": "#0E2A47",
+  "icons": [
+    { "src": "/icones/icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icones/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icones/icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icones/icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

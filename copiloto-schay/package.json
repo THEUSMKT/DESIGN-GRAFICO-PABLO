@@ -1,0 +1,24 @@
+{
+  "name": "copiloto-vendas-schay",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Copiloto de Vendas Schay: ajuda a conduzir conversas de WhatsApp com clientes de imóveis.",
+  "scripts": {
+    "build": "node scripts/gerar-cerebro.mjs",
+    "dev": "node scripts/gerar-cerebro.mjs && netlify dev",
+    "local": "node scripts/servidor-local.mjs",
+    "testar": "node scripts/gerar-cerebro.mjs && node scripts/testar-conversas.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.9.0",
+    "@netlify/blobs": "^11.1.9"
+  },
+  "devDependencies": {
+    "@fontsource-variable/nunito": "^5.3.0",
+    "@netlify/functions": "^6.1.1"
+  }
+}

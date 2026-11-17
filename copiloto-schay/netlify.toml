@@ -1,0 +1,51 @@
+"$schema" = "https://open-api.netlify.com/netlify.schema.json"
+
+# Configuração do Netlify. No painel, use "Base directory" = copiloto-schay.
+[build]
+  command = "node scripts/gerar-cerebro.mjs"
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Páginas do gestor e do guia de instalação
+[[redirects]]
+  from = "/relatorio"
+  to = "/relatorio.html"
+  status = 200
+
+[[redirects]]
+  from = "/gestor"
+  to = "/relatorio.html"
+  status = 200
+
+[[redirects]]
+  from = "/instalar"
+  to = "/instalar.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    # O link pessoal (/?c=CODIGO) não pode vazar para outros sites
+    Referrer-Policy = "no-referrer"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "camera=(self), microphone=(), geolocation=()"
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self'; script-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/relatorio.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/fontes/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

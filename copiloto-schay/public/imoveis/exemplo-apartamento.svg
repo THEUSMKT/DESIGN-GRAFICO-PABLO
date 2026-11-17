@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ilustração de prédio de apartamentos (exemplo)">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CFE3FA"/><stop offset="1" stop-color="#EEF5FD"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#ceu)"/>
+  <circle cx="320" cy="70" r="30" fill="#E9C46A" opacity=".9"/>
+  <rect x="0" y="250" width="400" height="50" fill="#BFD8C2"/>
+  <rect x="40" y="120" width="70" height="130" rx="4" fill="#9FBDE0"/>
+  <rect x="290" y="140" width="80" height="110" rx="4" fill="#9FBDE0"/>
+  <rect x="130" y="50" width="140" height="200" rx="6" fill="#0E2A47"/>
+  <rect x="130" y="50" width="140" height="10" fill="#C9A24A"/>
+  <g fill="#F4E3B5">
+    <rect x="148" y="78" width="26" height="22" rx="2"/><rect x="187" y="78" width="26" height="22" rx="2"/><rect x="226" y="78" width="26" height="22" rx="2"/>
+    <rect x="148" y="116" width="26" height="22" rx="2"/><rect x="187" y="116" width="26" height="22" rx="2" fill="#8FB7E3"/><rect x="226" y="116" width="26" height="22" rx="2"/>
+    <rect x="148" y="154" width="26" height="22" rx="2" fill="#8FB7E3"/><rect x="187" y="154" width="26" height="22" rx="2"/><rect x="226" y="154" width="26" height="22" rx="2"/>
+  </g>
+  <g fill="#C9A24A"><rect x="144" y="100" width="34" height="5" rx="2"/><rect x="222" y="138" width="34" height="5" rx="2"/></g>
+  <rect x="182" y="200" width="36" height="50" rx="3" fill="#C9A24A"/>
+  <circle cx="211" cy="226" r="2.5" fill="#0E2A47"/>
+  <g fill="#5E9F6E"><circle cx="70" cy="248" r="18"/><circle cx="330" cy="246" r="20"/></g>
+</svg>

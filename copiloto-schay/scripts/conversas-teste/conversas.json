@@ -1,0 +1,40 @@
+[
+  {
+    "arquivo": "1-lead-frio-quanto-e.png",
+    "titulo": "Lead frio que só pergunta \"quanto é?\"",
+    "contato": "+55 51 98765-4321",
+    "imovelId": "exemplo-apto-centro",
+    "mensagens": [
+      { "dia": "HOJE" },
+      { "de": "cliente", "texto": "Olá! Tenho interesse e queria mais informações, por favor.", "hora": "14:02" },
+      { "de": "cliente", "texto": "quanto é?", "hora": "14:03" }
+    ]
+  },
+  {
+    "arquivo": "2-vou-falar-com-meu-marido.png",
+    "titulo": "\"Vou falar com meu marido\"",
+    "contato": "Fernanda Lima",
+    "imovelId": "exemplo-casa-patio",
+    "mensagens": [
+      { "dia": "HOJE" },
+      { "de": "cliente", "texto": "Oi, vi o anúncio da casa com pátio. Ainda tá disponível?", "hora": "09:12" },
+      { "de": "schay", "texto": "Oi, Fernanda! Tá sim 😊 Você procura pra morar ou investir?", "hora": "09:15" },
+      { "de": "cliente", "texto": "Pra morar, eu, meu marido e as crianças. Gostei muito do pátio, as crianças precisam de espaço", "hora": "09:21" },
+      { "de": "schay", "texto": "Imagino! O pátio é bem grande, cabe até piscina. Quer conhecer pessoalmente? Sábado às 10h ou domingo às 15h?", "hora": "09:24" },
+      { "de": "cliente", "texto": "Vou falar com meu marido e te aviso", "hora": "09:40" }
+    ]
+  },
+  {
+    "arquivo": "3-sumiu-ha-3-dias.png",
+    "titulo": "Lead que sumiu há 3 dias",
+    "contato": "Rafael",
+    "imovelId": "exemplo-apto-centro",
+    "mensagens": [
+      { "dia": "SÁBADO" },
+      { "de": "cliente", "texto": "Boa tarde, o apartamento do centro ainda está à venda?", "hora": "17:58" },
+      { "de": "schay", "texto": "Boa tarde, Rafael! Está sim. Ele está R$ 289 mil. É pra você morar ou pra investir?", "hora": "18:05" },
+      { "de": "cliente", "texto": "Pra morar. Moro de aluguel e queria sair até o meio do ano", "hora": "18:20" },
+      { "de": "schay", "texto": "Que legal, sair do aluguel faz muita diferença! Você pensa em usar FGTS ou financiamento? Assim eu já vejo as condições pra você", "hora": "18:26" }
+    ]
+  }
+]

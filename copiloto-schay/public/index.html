@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Copiloto da Schay</title>
+  <meta name="description" content="Ajuda para responder clientes no WhatsApp e lembrar quem chamar.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0E2A47">
+  <meta name="color-scheme" content="light">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Copiloto">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icones/icone.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icones/apple-touch-icon.png">
+  <link rel="preload" href="/fontes/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main id="app" aria-live="polite">
+    <div class="carregando-inicial" role="status">
+      <div class="pontinhos" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p>Abrindo…</p>
+    </div>
+  </main>
+  <div id="aviso" class="aviso" role="status" aria-live="assertive" hidden></div>
+  <input id="seletor-foto" class="escondido" type="file" accept="image/*" multiple tabindex="-1" aria-hidden="true">
+  <noscript><p class="sem-js">Para usar o Copiloto, abra este link no Chrome ou no Safari.</p></noscript>
+</body>
+</html>
